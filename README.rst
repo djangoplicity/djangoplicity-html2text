@@ -1,4 +1,5 @@
-# [html2text](http://www.aaronsw.com/2002/html2text/)
+html2text
+=========
 
 html2text is a Python script that converts a page of HTML into clean, easy-to-read plain ASCII text. Better yet, that ASCII also happens to be valid Markdown (a text-to-HTML format).
 
@@ -22,10 +23,14 @@ Usage: `html2text.py [(filename|url) [encoding]]`
 
 Or you can use it from within Python:
 
+.. code:: python
+
     import html2text
     print html2text.html2text("<p>Hello, world.</p>")
 
 Or with some configuration options:
+
+.. code:: python
 
     import html2text
     h = html2text.HTML2Text()
@@ -42,6 +47,8 @@ _Originally written by Aaron Swartz. This code is distributed under the GPLv3._
 3. Run `python setup.py sdist upload`
 
 ## How to run unit tests
+
+.. code:: python
 
     cd test/
     python run_tests.py

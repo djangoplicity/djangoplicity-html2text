@@ -1,7 +1,8 @@
 COPYING
 MANIFEST.in
-README.md
+README.rst
 html2text.py
+setup.cfg
 setup.py
 html2text.egg-info/PKG-INFO
 html2text.egg-info/SOURCES.txt

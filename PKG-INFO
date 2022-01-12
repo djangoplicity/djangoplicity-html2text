@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
-Name: html2text
+Name: djangoplicity-html2text
 Version: 3.200.3
 Summary: Turn HTML into equivalent Markdown-structured text.
-Home-page: http://www.aaronsw.com/2002/html2text/
+Home-page: https://github.com/djangoplicity/djangoplicity-html2text
 Author: Aaron Swartz
 Author-email: me@aaronsw.com
 License: GNU GPL 3
